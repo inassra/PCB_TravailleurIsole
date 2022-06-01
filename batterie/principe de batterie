@@ -1,0 +1,10 @@
+    A) Régulateur linéaire
+1) Pourquoi ?
+2) L’environnement
+1)Pourquoi?
+Tout comme le montre le cahier des charges du travailleur isolé, on a besoin d’alimenter la
+carte STM32 ainsi que les deux capteurs GPS et Accéléromètre avec une tension de 3,3V.
+Pour avoir cette tension de sortie, on pourra refaire le même régulateur BUCK pour passer
+du 6V au 3,3V ou bien du 5V au 3,3V.
+Pour des raisons de coût ainsi que d’optimisation d’espace sur le PCB, on a plutôt opté pour
+un régulateur linéaire.
